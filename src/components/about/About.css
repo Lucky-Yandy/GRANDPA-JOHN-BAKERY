@@ -1,0 +1,149 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100%; 
+}
+
+.about-person{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+
+}
+
+.about-person-left {
+  flex-grow: 1; 
+  padding: 0;
+  margin: 0;
+}
+
+.about-person-right {
+  flex-grow: 1; 
+  padding: 0;
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 0%;
+  font-size: 20px;
+}
+ /*8888888888888888888888888888888*/ 
+.about-bakery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+.about-bakery-right {
+
+   flex-grow: 1; 
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+.about-bakery-left{
+  
+  flex-grow: 1; 
+  padding: 0;
+  margin: 0;
+  padding-left: 0%;
+  padding-right: 10%;
+  font-size: 20px;
+
+}
+
+
+.about-img {
+     width: 100%;
+     max-width: 100%; 
+     height: auto;
+}
+
+
+@media only screen and (max-width: 1045px) {
+.about-person {
+ 
+  flex-direction: column;
+ 
+}
+
+  
+.about-img {
+     width: 600px; 
+     height: 400px;
+}
+
+
+.about-person-right {
+ 
+  padding-right: 10%;
+ 
+}
+
+
+.about-bakery {
+ 
+  flex-direction: column;
+ 
+}
+
+
+  .about-bakery-right {
+    order: -1; 
+  }
+
+.about-bakery-left{ 
+  padding-left: 10%;
+}
+
+}
+
+@media only screen and (max-width: 660px) {
+
+.about-person-right h1{
+ font-size:24px;
+}
+.about-person-right p{
+ font-size:16px;
+}
+.about-bakery-left h1{
+font-size:24px;
+}
+.about-bakery-left p{
+ font-size:16px;
+}
+
+}
+
+@media only screen and (max-width: 660px) {
+
+.about-img {
+     
+     height: 300px;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+.about-person-right {
+   padding-left: 0%;
+  padding-right: 0%;
+ 
+}
+.about-bakery-left {
+   padding-left: 0%;
+  padding-right: 0%;
+ 
+}
+
+

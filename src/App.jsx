@@ -1,16 +1,17 @@
 import {CartContextProvider} from './store/CartContext.jsx';
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
-import Header from './components/Header.jsx';
-import Meals from './components/Meals.jsx';
+
 import {UserProgressContextProvider} from './store/UserProgressContext.jsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Cart from './components/Cart.jsx';
 import Checkout from './components/Checkout.jsx';
-import Home from './components/Home.jsx';
-import About from './components/About.jsx';
-import Contact from './components/Contact.jsx';
-
-
+import Home from './components/homePage/Home.jsx';
+import About from './components/about/About.jsx';
+import Contact from './components/contact/Contact.jsx';
+import LoginPage from  './components/auth/Login.jsx';
+import Header from './components/header/Header.jsx';
+import Meals from './components/Meals.jsx';
+import Footer from'./components/Footer.jsx';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes> 
+           <Footer /> 
           <Cart />
           <Checkout />
         </CartContextProvider>

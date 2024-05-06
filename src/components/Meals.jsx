@@ -14,11 +14,13 @@ export default function Meals(){
  return <Error title="failed to fetch meals" message={error}/>
  }
  return (
+  <div style={{ margin:'10px'}}>
   <ul id ="meals">
   {loadedMeals.map((meal)=> (
     < MealItem  key={meal.id} meal={meal}/>
   ))}
   </ul>
+  </div>
  )
  
 }

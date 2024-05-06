@@ -1,0 +1,222 @@
+.contactContent{
+ display: flex; 
+ height:100vh;
+ justify-content:Center;
+ align-items:center;
+ 
+
+}
+.InfoContent{
+  display:flex;
+  background-color:white;
+  width:50%;
+  height:600px;
+   border-radius: 8px;
+  justify-content:flex-end;
+  position:relative;
+}
+
+.contacticons{
+  width: 1.5rem;
+  height: 1.5rem; 
+}
+
+
+.contactFormlayout{
+
+ display:flex;
+  width:60%;
+ flex-direction:column;
+ 
+ padding:40px;
+
+}
+
+.SomeInfo{
+ height:60%;
+ width:40%;
+ background-color:pink;
+  border-radius: 8px;
+ position:absolute;
+ top:20%;
+ left:-50px;
+ padding:20px;
+ 
+ 
+}
+.SomeInfodiv{
+ padding:5px;
+ display:flex;
+ flex-direction:row;
+ gap:10px;
+ justify-content:start;
+ align-items:center;
+
+}
+
+
+
+.contact-input {
+ 
+  border-radius: 8px;
+  width: 100%;
+  height: 40px; 
+  margin-bottom: 10px; 
+  padding: 8px; 
+}
+
+.contact-textarea {
+ 
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 10px; 
+  padding: 8px; 
+  height: 150px; 
+}
+
+
+.contactThirdSection-right-layout{
+ display:flex;
+ flex-direction:column;
+ padding-left:20px;
+
+}
+.socialmedia{
+display:flex;
+flex-direction:row;
+gap:20px;
+
+}
+
+.contacticons{
+  width: 1.5rem;
+  height: 1.5rem; 
+}
+
+
+
+@media only screen and (max-width: 1360px) {
+.contactContent{
+ padding-left:20px;
+ padding-right:20px;
+ 
+
+}
+
+.SomeInfo{
+ height:70%;
+ width:50%;
+ background-color:pink;
+  border-radius: 8px;
+ position:absolute;
+ top:15%;
+ left:-50px;
+ padding:20px;
+
+}
+}
+
+@media only screen and (max-width: 1040px) {
+
+
+.InfoContent{
+ 
+  width:100%;
+  height:600px;
+   border-radius: 8px;
+  justify-content:flex-end;
+  position:relative;
+  
+}
+.SomeInfo{
+ height:70%;
+ width:40%;
+ background-color:pink;
+  border-radius: 8px;
+ position:absolute;
+ top:15%;
+ left:20px;
+ padding:20px;
+ 
+ 
+}
+}
+
+@media only screen and (max-width: 686px) {
+.contactContent{
+ padding-top:60px;
+ 
+
+}
+.InfoContent{
+  display:flex;
+  background-color:white;
+  width:100%;
+  height:100vh;
+  border-radius: 0px;
+  flex-direction:column; 
+ 
+}
+
+.SomeInfo{
+ height:100%;
+ width:100%;
+ background-color:pink;
+ border-radius: 0px;
+position:static;
+ margin-top:0px;
+ 
+ 
+ 
+}
+.contactFormlayout{
+  width:100%;
+ 
+
+}
+
+}
+
+@media only screen and (max-width: 560px) {
+.SomeInfo{
+ justify-content:center;
+ align-items:center;
+}
+
+
+ .SomeInfo h2{
+ font-size:18px;
+ 
+
+ 
+}
+ .contactFormlayout{
+
+ display:flex;
+ 
+ flex-direction:column;
+ 
+ padding:10px;
+
+}
+
+ 
+}
+@media only screen and (max-width: 320px) {
+
+.SomeInfo{
+ height:100%;
+ 
+ }
+ 
+ 
+ .SomeInfo h2{
+ font-size:16px;
+ 
+}
+.SomeInfo p{
+ font-size:12px;
+ 
+}
+ 
+}

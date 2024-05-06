@@ -1,0 +1,62 @@
+.auth-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  
+ 
+}
+
+.auth-modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.auth-loginswitch{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.auth-form{
+  display: flex;
+  flex-direction: column;
+  
+  display: flex;
+ 
+  align-items: center;
+   
+  
+}
+.auth-form input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: none; 
+  border-bottom: 2px solid black; 
+  outline: none; 
+  background-color: #e4ddd4;
+  min-width:300px;
+  font-size:14px;
+  
+}
+.auth-form button{
+  margin-top:15px;
+  border-radius: 10px;
+  width: 100%;
+  font-size:14px;
+  
+}
+
+
+/*.auth-form input:focus {
+  border-bottom-color: #ffc404; Change bottom line color on focus 
+}*/
+.authbutton{
+ font-size:14px !important;
+  text-align:left;
+  margin-top:0px !important;
+  
+}
+
+
