@@ -171,7 +171,7 @@ justify-content:space-between;
  display:flex;
  flex-direction:column;
  padding:20px;
- border:2px solid Aliceblue;
+ border:2px solid lightgray;
  border-radius: 10%; 
  flex-grow: 1; 
  flex-basis: calc(30% - 20px); 
