@@ -1,6 +1,5 @@
 import './Contact.css';
 import {useState} from 'react';
-import contactimg from '../../assets/2.jpg';
 import phoneIcon from  '../../assets/phone.png';
 import emailIcon from  '../../assets/email.png';
 import locationIcon from  '../../assets/location.png';

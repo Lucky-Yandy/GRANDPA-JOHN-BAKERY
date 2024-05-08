@@ -1,0 +1,67 @@
+[
+  {
+    "id":"1",
+    "name":"Blueberry Cake",
+    "image":"./assets/introducing/blueberry-cake.jpg"
+  },
+  {
+    "id":"2",
+    "name":"Cheese Cake",
+     "image":"./assets/introducing/cheese-cake.jpg"
+  
+  },
+  {
+    "id": "3",
+    "name":"Chocolate Cookie",
+    "image":"./assets/introducing/chocolate-cookie.jpg"
+  },
+   {
+    "id":"4",
+    "name":"Fruit cake",
+    "image":"./assets/introducing/colorful-cookie.jpg"
+  },
+  {
+    "id":"5",
+    "name":"Croissant",
+     "image":"./assets/introducing/croissant.jpg"
+  
+  },
+  {
+    "id":"6",
+    "name":"Cup cake",
+    "image":"./assets/introducing/cup-cake.jpg"
+  },
+   {
+    "id":"7",
+    "name":"Granola",
+    "image":"./assets/introducing/granola.jpg"
+  },
+  {
+    "id":"8",
+    "name":"Lemon Cake",
+     "image":"./assets/introducing/lemon-cake.jpg"
+  
+  },
+ 
+   {
+    "id": "9",
+    "name":"Natural Yeast Bread.jpg",
+    "image":"./assets/introducing/natural-yeast-bread.jpg"
+  },
+  {
+    "id":"10",
+    "name":"./assets/Swirl Cake",
+     "image":"introducing/swirl-cake.jpg"
+  
+  },
+  {
+    "id":"11",
+    "name":"Sourdough bread",
+    "image":"./assets/introducing/sourdough.jpg"
+  },
+  {
+    "id":"12",
+    "name":"Sourdough bread",
+    "image":"./assets/introducing/sweetheart.jpg"
+  }
+]

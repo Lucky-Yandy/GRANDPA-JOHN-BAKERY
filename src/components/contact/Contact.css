@@ -35,7 +35,7 @@
 .SomeInfo{
  height:60%;
  width:40%;
- background-color:pink;
+ background-color:Aliceblue;
   border-radius: 8px;
  position:absolute;
  top:20%;
@@ -106,7 +106,7 @@ gap:20px;
 .SomeInfo{
  height:70%;
  width:50%;
- background-color:pink;
+
   border-radius: 8px;
  position:absolute;
  top:15%;
@@ -131,7 +131,7 @@ gap:20px;
 .SomeInfo{
  height:70%;
  width:40%;
- background-color:pink;
+
   border-radius: 8px;
  position:absolute;
  top:15%;
@@ -161,7 +161,7 @@ gap:20px;
 .SomeInfo{
  height:100%;
  width:100%;
- background-color:pink;
+
  border-radius: 0px;
 position:static;
  margin-top:0px;
